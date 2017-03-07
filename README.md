@@ -1,4 +1,6 @@
-# A simple TodoMVC Implementation by [ActFramework](http://actframework.org) and [Riotjs](http://riotjs.com/)
+# A simple TodoMVC 
+
+A simple TodoMVC app implementation by [ActFramework](http://actframework.org) and [Riotjs](http://riotjs.com/)
 
 ## Setup
 
@@ -16,11 +18,11 @@ This application has separated backend and UI implementation.
 
 The backend service is created using [ActFramework](http://actframework.org). It provides the following RESTful endpoints:
 
-1. GET /todo - returns all TODO items
-2. POST /todo with JSON body - Create an new TODO item
-3. GET /todo/{id} - get a TODO item specified by `id`
-4. PATCH /todo with JSON body - Update a TODO item specified by `id` with specified JSON body
-5. DELETE /todo/{id} - remove TODO item specified by `id`
+1. `GET /todo` - returns all TODO items
+2. `POST /todo` with JSON body - Create an new TODO item
+3. `GET /todo/{id}` - get a TODO item specified by `id`
+4. `PATCH /todo/{id}` with JSON body - Update a TODO item specified by `id` with specified JSON body
+5. `DELETE /todo/{id}` - remove TODO item specified by `id`
 
 ### UI
 
